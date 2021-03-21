@@ -15,5 +15,12 @@ def main():
     #fazendo com função lambda
     print(list(map(lambda x: round((5.0)/9 * (x-32), 2), temperaturas)))
 
+    #usando a função map para somar duas listas
+    a = [1, 3, 5, 7, 9]
+    b = [2, 4, 6, 8,10]
+
+    c = list(map(lambda x, y: x+y, a, b))
+    print(c)
+
 if __name__ == '__main__':
     main()
