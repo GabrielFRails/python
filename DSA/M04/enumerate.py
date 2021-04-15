@@ -13,9 +13,9 @@ for ind, val in enumerate(seq):
 lista = ['Marketing', 'COmputação', 'Letras']
 for i, item in enumerate(lista):
     print(f'curso {i+1}: {item}')
-
-for i, item in enumerate('Isso é uma string meu chapa'):
+'''
+for i, item in enumerate('String'):
     print(i, item)
-
+'''
 for i, item in enumerate(range(10)):
     print(i, item)
