@@ -1,0 +1,8 @@
+a = ['a', 'b', 'c', 'd']
+b = dict(enumerate(a,100))
+print(b)from pytube import YouTube
+
+link = input('put the link here: ')
+video = YouTube(link)
+stream = video.streams.get_highest_resolution()
+stream.download()
